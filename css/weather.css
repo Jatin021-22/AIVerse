@@ -1,0 +1,182 @@
+        :root {
+            --primary-color: #007bff;
+            --primary-hover: #0056b3;
+            --glass-color: rgba(247, 248, 249, 0.85);
+            --text-color: #333;
+            --shadow-color: rgba(33, 99, 253, 0.3);
+            --icon-color: #3498db;
+            --icon-glow: 0 0 5px rgb(119, 177, 238);
+        }
+
+        .glass-card {
+            width: 200%;
+            max-width: 650px;
+            padding: 30px;
+            background: var(--glass-color);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 0 8px 32px var(--shadow-color);
+            transition: all 0.3s ease;
+            margin: 150px auto;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .glass-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(
+                to bottom right,
+                rgba(255, 255, 255, 0.3) 0%,
+                rgba(255, 255, 255, 0) 60%
+            );
+            transform: rotate(30deg);
+            pointer-events: none;
+        }
+
+        .glass-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 40px rgba(18, 69, 196, 0.4);
+        }
+
+        h2 {
+            margin-bottom: 25px;
+            color: var(--primary-color);
+            text-align: center;
+            font-size: 28px;
+            font-weight: 600;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .weather-card {
+            padding: 20px;
+            border-radius: 12px;
+            background: rgba(248, 249, 250, 0.7);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            margin-top: 25px;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .weather-card:hover {
+            background: rgba(226, 230, 234, 0.8);
+            transform: scale(1.02);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .data-label {
+            font-weight: 700;
+            margin-bottom: 5px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .data-value {
+            margin-left: 28px;
+            margin-bottom: 15px;
+        }
+
+        .form {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid rgba(204, 204, 204, 0.5);
+            border-radius: 8px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            background: rgba(255, 255, 255, 0.8);
+            margin-bottom: 15px;
+        }
+
+        .form:focus {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.2);
+            outline: none;
+            background: rgba(255, 255, 255, 0.95);
+        }
+
+        .btn-glass {
+            width: 100%;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .btn-glass:hover {
+            background-color: var(--primary-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .weather-icon {
+            color: var(--icon-color);
+            text-shadow: var(--icon-glow);
+            font-size: 1.2em;
+            min-width: 24px;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .glass-card {
+                width: 95%;
+                padding: 25px;
+                border-radius: 18px;
+            }
+            
+            h2 {
+                font-size: 24px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            body {
+                padding: 15px;
+            }
+            
+            .glass-card {
+                width: 100%;
+                padding: 20px;
+                border-radius: 16px;
+            }
+            
+            h2 {
+                font-size: 22px;
+                margin-bottom: 20px;
+            }
+            
+            .form, .btn-glass {
+                padding: 10px 12px;
+                font-size: 15px;
+            }
+            
+            .weather-card {
+                padding: 15px;
+            }
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-5px); }
+            100% { transform: translateY(0px); }
+        }
+
+        .rotate {
+            animation: float 3s ease-in-out infinite;
+            display: inline-block;
+        }
