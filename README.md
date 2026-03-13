@@ -1,132 +1,215 @@
-🌌 AIverse — AI-Integrated Smart Web Platform
-<p align="center"> <b>An intelligent web platform that combines multiple AI services, interactive animations, and real-time data to deliver a futuristic user experience.</b> </p> <p align="center"> <img src="https://img.shields.io/badge/PHP-Backend-777BB4?style=for-the-badge&logo=php&logoColor=white"/> <img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/> <img src="https://img.shields.io/badge/GSAP-Animation-88CE02?style=for-the-badge"/> <img src="https://img.shields.io/badge/Three.js-3D Graphics-black?style=for-the-badge&logo=three.js"/> <img src="https://img.shields.io/badge/OpenAI-Chatbot-412991?style=for-the-badge&logo=openai&logoColor=white"/> <img src="https://img.shields.io/badge/Cohere-NLP-blue?style=for-the-badge"/> <img src="https://img.shields.io/badge/Stability AI-Image Generation-purple?style=for-the-badge"/> <img src="https://img.shields.io/badge/DeepAI-Avatar Generation-green?style=for-the-badge"/> <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge"/> </p>
-🤖 Overview
+# 🌌 AIverse — AI-Integrated Smart Web Platform
 
-AIverse – AI-Integrated Smart Web Platform is an advanced web application designed to bring together multiple AI capabilities into a single unified platform.
+<div align="center">
+<br/><br/>
 
-The system integrates real-time AI chatbot communication, natural language summarization, AI image and avatar generation, and live weather information, while maintaining a secure login system and interactive interface.
+<p><b>An intelligent web platform that combines multiple AI services, interactive animations, and real-time data to deliver a futuristic user experience.</b></p>
 
-The platform focuses on delivering intelligent functionality, modern UI design, and smooth animations, making the experience engaging and dynamic.
+<br/>
 
-✨ Core Highlights
+![PHP](https://img.shields.io/badge/PHP-Backend-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![GSAP](https://img.shields.io/badge/GSAP-Animation-88CE02?style=for-the-badge)
+![Three.js](https://img.shields.io/badge/Three.js-3D_Graphics-black?style=for-the-badge&logo=three.js)
+![OpenAI](https://img.shields.io/badge/OpenAI-Chatbot-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Cohere](https://img.shields.io/badge/Cohere-NLP-blue?style=for-the-badge)
+![Stability AI](https://img.shields.io/badge/Stability_AI-Image_Gen-purple?style=for-the-badge)
+![DeepAI](https://img.shields.io/badge/DeepAI-Avatar_Gen-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
 
-🔹 AI-powered chatbot interaction
+<br/>
 
-🔹 Real-time text summarization using NLP
+[Overview](#-overview) · [Features](#-key-features) · [Tech Stack](#-technology-stack) · [Setup](#-local-setup-guide) · [Preview](#-preview) · [Developer](#-developer)
 
-🔹 AI image and avatar generation
+</div>
 
-🔹 Live weather data integration
+---
 
-🔹 Secure login with session tracking
+## 🤖 Overview
 
-🔹 Interactive animations using GSAP and Three.js
+**AIverse** is an advanced web application that brings multiple AI capabilities together into a single unified platform.
 
-🔹 Responsive and modern user interface
+The system integrates real-time AI chatbot communication, natural language summarization, AI image and avatar generation, and live weather information — all wrapped in a secure authentication system with smooth interactive animations.
 
-🔹 Admin activity monitoring panel
+> Built to explore how modern web development and artificial intelligence can work together to create next-generation smart platforms.
 
-🚀 Key Features
-Module	Description
+---
 
-🤖 AI Chatbot	Real-time conversational AI powered by OpenAI
+## 🖼️ Preview
 
-🧠 NLP Summarizer	Automatic text summarization using Cohere
+<div align="center">
+  <img src="assets/img1.png" alt="AIverse Dashboard" width="900"/>
+  <br/><br/>
+  <img src="assets/img2.png" alt="AIverse Features" width="900"/>
+</div>
 
-🖼 AI Image Generator	Generate AI-created images via Stability AI
+---
 
-👤 AI Avatar Creator	Create AI avatars using DeepAI
+## ✨ Core Highlights
 
-🌦 Weather System	Live weather updates via OpenWeather API
+- 🤖 AI-powered real-time chatbot interaction
+- 🧠 Natural language text summarization
+- 🖼️ AI image and avatar generation
+- 🌦️ Live weather data integration
+- 🔐 Secure login with session tracking
+- 🎛️ Admin activity monitoring panel
+- 🎨 Interactive GSAP and Three.js animations
+- 📱 Responsive modern user interface
 
-🔐 Authentication	Secure login system with session tracking
+---
 
-🎛 Admin Panel	Track platform activity and interactions
+## 🚀 Key Features
 
-🎨 Interactive UI	GSAP animations and Three.js visual effects
+| Module | Description |
+|--------|-------------|
+| 🤖 **AI Chatbot** | Real-time conversational AI powered by OpenAI GPT |
+| 🧠 **NLP Summarizer** | Automatic text summarization using Cohere AI |
+| 🖼️ **AI Image Generator** | Generate AI-created images via Stability AI |
+| 👤 **AI Avatar Creator** | Create personalized AI avatars using DeepAI |
+| 🌦️ **Weather System** | Live weather updates via OpenWeather API |
+| 🔐 **Authentication** | Secure login system with session management |
+| 🎛️ **Admin Panel** | Monitor platform activity and user interactions |
+| 🎨 **Interactive UI** | Smooth GSAP animations and Three.js 3D effects |
 
-🧠 Technology Stack
+---
 
-Frontend
+## 🧠 Technology Stack
 
-HTML5
+### Frontend
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
-CSS3
+### Backend
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
-JavaScript
+### Animation & Graphics
+![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=flat-square)
+![Three.js](https://img.shields.io/badge/Three.js-black?style=flat-square&logo=three.js)
 
-Backend
+### AI & External APIs
+![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white)
+![Cohere](https://img.shields.io/badge/Cohere_AI-blue?style=flat-square)
+![Stability AI](https://img.shields.io/badge/Stability_AI-purple?style=flat-square)
+![DeepAI](https://img.shields.io/badge/DeepAI-green?style=flat-square)
+![OpenWeather](https://img.shields.io/badge/OpenWeather_API-orange?style=flat-square)
 
-Core PHP
+---
 
-Database
+## ⚙️ Local Setup Guide
 
-MySQL
+### Prerequisites
+- XAMPP installed (Apache + MySQL)
+- PHP 7.4 or higher
+- API keys for: OpenAI, Cohere, Stability AI, DeepAI, OpenWeather
 
-Animation & Graphics
+---
 
-GSAP
+### Step 1 — Clone the repository
 
-Three.js
+```bash
+git clone https://github.com/Jatin021-22/AIVerse.git
+```
 
-AI & APIs
-
-OpenAI API
-
-Cohere AI API
-
-Stability AI API
-
-DeepAI API
-
-OpenWeather API
-
-Data Format
-
-JSON
-
-<p align="center"> <i>AI Integration • Modern UI • Interactive Experience</i> </p>
-⚙️ Local Setup Guide
-1️⃣ Clone the repository
-git clone (https://github.com/Jatin021-22/AIVerse.git)
-2️⃣ Move project
+### Step 2 — Move project to XAMPP
 
 Place the project folder inside:
 
-C:\xampp\htdocs\
-3️⃣ Database setup
+```
+C:\xampp\htdocs\aiverse
+```
 
-Open phpMyAdmin
+### Step 3 — Database setup
 
-Create database
-
+1. Open **phpMyAdmin** → `http://localhost/phpmyadmin`
+2. Create a new database named:
+```
 aiverse_db
+```
+3. Click **Import** and select the provided `.sql` file
+4. Click **Go** to import
 
-Import the provided .sql file.
+### Step 4 — Configure API keys
 
-4️⃣ Start server
+Open the config file and add your API keys:
 
-Start the following in XAMPP Control Panel
+```php
+define('OPENAI_API_KEY', 'your_key_here');
+define('COHERE_API_KEY', 'your_key_here');
+define('STABILITY_API_KEY', 'your_key_here');
+define('DEEPAI_API_KEY', 'your_key_here');
+define('OPENWEATHER_API_KEY', 'your_key_here');
+```
 
-Apache ✅
-MySQL ✅
+### Step 5 — Start XAMPP services
 
-5️⃣ Run the project
+Open **XAMPP Control Panel** and start:
+- ✅ Apache
+- ✅ MySQL
 
-Open your browser:
+### Step 6 — Open the project
 
+```
 http://localhost/aiverse
+```
 
-👨‍💻 Developer
+---
 
-Jatin Prajapati
+## 🔐 Demo Credentials
 
-🌟 Project Vision
+| Role | Username | Password |
+|------|----------|----------|
+| Admin | `Jatin` | `jatin12` |
+
+> ⚠️ Change these credentials before deploying to production.
+
+---
+
+## 🗺️ Future Improvements
+
+- [ ] Add voice input support for the AI chatbot
+- [ ] Integrate more AI models (Gemini, Claude)
+- [ ] Add user dashboard with usage history
+- [ ] Support multiple languages via translation API
+- [ ] Deploy on cloud (AWS / Heroku / Railway)
+- [ ] Add rate limiting and API usage tracking
+- [ ] Mobile app version using React Native
+
+---
+
+## 👨‍💻 Developer
+
+<div align="center">
+
+**Jatin Prajapati**
+
+*Full Stack Developer · AI Enthusiast*
+
+[![GitHub](https://img.shields.io/badge/GitHub-Jatin021--22-181717?style=for-the-badge&logo=github)](https://github.com/Jatin021-22)
+
+</div>
+
+---
+
+## 🌟 Project Vision
 
 AIverse is built to explore how multiple AI technologies can be integrated into a single web ecosystem to create intelligent, interactive, and engaging digital experiences.
 
-The project demonstrates how modern web development and artificial intelligence can work together to build next-generation smart platforms.
+The project demonstrates the power of combining **modern web development** with **artificial intelligence** to build next-generation smart platforms that are both functional and visually compelling.
 
-📜 License
+---
 
-This project is released under the MIT License.
+## 📜 License
+
+```
+© 2026 Jatin Prajapati. All rights reserved.
+Released under the MIT License.
+```
+
+---
+
+<div align="center">
+  <i>AI Integration &nbsp;·&nbsp; Modern UI &nbsp;·&nbsp; Interactive Experience</i>
+</div>
