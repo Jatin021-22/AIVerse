@@ -163,8 +163,6 @@ http://localhost/aiverse
 |------|----------|----------|
 | Admin | `Jatin` | `jatin12` |
 
-> ⚠️ Change these credentials before deploying to production.
-
 ---
 
 ## 🗺️ Future Improvements
